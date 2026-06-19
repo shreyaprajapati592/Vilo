@@ -1,0 +1,1112 @@
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1800px) {}
+
+@media screen and (max-width: 1700px) {
+
+    h1,
+    .title-h1 {
+        font-size: 76px;
+        line-height: 100px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .hero-banner-section {
+        padding: 250px 0px 220px 0px;
+    }
+
+    .hero-banner-main {
+        gap: 20px;
+    }
+
+    h1,
+    .title-h1 {
+        font-size: 69px;
+        line-height: 90px;
+    }
+
+    .our-solution-left li a {
+        width: 70%;
+    }
+
+    .our-clients-section {
+        padding: 170px 0px;
+    }
+
+    .team-details h4 {
+        font-size: 26px;
+    }
+
+    .team-details {
+        padding: 25px 45px 20px 25px;
+    }
+
+    .follow-us-left {
+        padding: 200px 90px 90px 0px;
+    }
+
+    .solution-right-img {
+        padding-top: 105%;
+    }
+
+    .our-client-btm {
+        gap: 80px;
+    }
+
+    .our-client-btm-right-item {
+        padding: 45px 70px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .header-main {
+        gap: 40px;
+        padding: 35px 0px;
+    }
+
+    .hero-banner-section {
+        padding: 230px 0px 190px 0px;
+    }
+
+    .navbar-right {
+        gap: 40px;
+    }
+
+    .navbar-menu {
+        gap: 25px;
+    }
+
+    h1,
+    .title-h1 {
+        font-size: 61px;
+        line-height: 80px;
+    }
+
+    h2,
+    .title-h2 {
+        font-size: 54px;
+        line-height: 70px;
+    }
+
+    .what-we-do-section {
+        padding: 130px 0px 170px;
+    }
+
+    .our-solution-left li a {
+        width: 82%;
+    }
+
+    .our-clients-section {
+        padding: 160px 0px;
+    }
+
+    .team-card {
+        width: calc((100% - (3 * 35px)) / 4);
+    }
+
+    .we-are-btm {
+        gap: 35px;
+    }
+
+    .follow-us-left {
+        padding: 190px 80px 80px 0px;
+    }
+
+    .our-client-btm-right-item {
+        padding: 45px 70px 45px 70px;
+    }
+
+    .our-solution-left li {
+        padding: 10px 0px 15px;
+    }
+
+    .our-solution-main {
+        gap: 60px;
+        padding-bottom: 90px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .header-main {
+        gap: 19px;
+        padding: 25px 0px;
+    }
+
+    .navbar-right {
+        gap: 19px;
+    }
+
+    .btn {
+        padding: 13px 25px 13px 25px;
+    }
+
+    .navbar-menu {
+        gap: 20px;
+    }
+
+    h1,
+    .title-h1 {
+        font-size: 56px;
+        line-height: 70px;
+    }
+
+    .hero-banner-section {
+        padding: 210px 0px 170px 0px;
+    }
+
+    .we-do-main {
+        gap: 50px;
+    }
+
+    .what-we-do-section {
+        padding: 110px 0px 150px;
+    }
+
+    h2,
+    .title-h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .heading-p {
+        gap: 30px;
+    }
+
+    .exist-max {
+        gap: 50px;
+    }
+
+    .our-solutions-section {
+        padding: 100px 0px 100px 0px;
+    }
+
+    .our-solution-left li a {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0px 45px;
+    }
+
+    .our-solution-left {
+        width: 19%;
+    }
+
+    .our-solution-top,
+    .our-solution-right .swiper-slide {
+        gap: 30px;
+    }
+
+    .our-solution-right-content {
+        padding: 25px;
+    }
+
+    h4,
+    .title-h4 {
+        font-size: 22px;
+    }
+
+    .our-clients-section {
+        padding: 140px 0px;
+    }
+
+    .follow-us-left {
+        padding: 150px 50px 50px 0px;
+        gap: 50px;
+        width: 54%;
+    }
+
+    .our-client-btm-right-item {
+        padding: 35px 50px 35px 50px;
+    }
+
+    .our-client-swiper .swiper-wrapper {
+        gap: 30px;
+    }
+
+    .our-client-logo {
+        width: calc((100% - (1 * 30px)) / 2) !important;
+        padding: 8px 20px;
+    }
+
+    .our-client-btm-right-content {
+        gap: 50px;
+    }
+
+    .our-client-btm-right-heading {
+        gap: 20px;
+    }
+
+    .our-client-btm {
+        gap: 70px;
+    }
+
+    .our-solution-main {
+        gap: 50px;
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar-menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        background: var(--dark-blue);
+        width: 100%;
+        height: 110vh;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 999;
+        transition: all 0.4s ease;
+        transform: translateX(100%);
+    }
+
+    .navbar-menu.active {
+        opacity: 1;
+        pointer-events: auto;
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px;
+        background: var(--dark-blue);
+        z-index: 1;
+        transform: translateX(0);
+    }
+
+    .navbar-menu li a {
+        color: white;
+    }
+
+    .header-logo a {
+        position: relative;
+        z-index: 2;
+    }
+
+    .navbar-menu ul {
+        flex-direction: column;
+        gap: 30px;
+        margin: 0px auto;
+        align-items: flex-start;
+    }
+
+    .no-scroll .hamburger span:after {
+        transform: rotate(-45deg);
+        top: -1px;
+        background: var(--white);
+    }
+
+    .no-scroll .header-logo .color-logo {
+        display: none;
+    }
+
+    .no-scroll .hamburger-logo {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger span {
+        display: block;
+        height: 2px;
+        background-color: var(--dark-blue);
+        border-radius: 2px;
+        transition: 0.4s ease;
+    }
+
+    .no-scroll .hamburger span {
+        background-color: var(--dark-blue);
+    }
+
+    .navbar-right {
+        justify-content: flex-end;
+    }
+
+    .header-main {
+        gap: 30px;
+    }
+
+    .header-logo {
+        width: 14%;
+    }
+
+    .hero-banner-section {
+        padding: 180px 0px 150px 0px;
+    }
+
+    .container {
+        padding: 0px 40px;
+    }
+
+    .hero-banner-main {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .hero-banner-right,
+    .exist-left {
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .hero-banner-left-top {
+        gap: 30px;
+    }
+
+    h3,
+    .title-h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .hero-banner-left {
+        gap: 35px;
+    }
+
+    h1,
+    .title-h1 {
+        font-size: 49px;
+        line-height: 60px;
+    }
+
+    .our-client-btm-right-item p {
+        max-height: 250px !important;
+        padding-right: 20px;
+        overflow-x: auto;
+    }
+
+    .swiper-slide {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .exist-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .exist-max,
+    .our-methodology-max,
+    .follow-us-max {
+        gap: 40px;
+        max-width: max-content;
+    }
+
+    .exist-right {
+        width: 100%;
+    }
+
+    .we-do-btm {
+        gap: 35px;
+    }
+
+    .we-do-btm-content {
+        width: calc((100% - (1 * 35px)) / 2);
+        padding: 30px 28px 25px;
+    }
+
+    .what-we-do-section {
+        padding: 110px 0px 130px;
+    }
+
+    .our-solutions-section {
+        padding: 90px 0px;
+    }
+
+    .our-solution-top {
+        flex-direction: column;
+    }
+
+    .our-solution-left li {
+        border-bottom: unset;
+        border-right: 1px solid var(--gray);
+        padding: 0px 12px 0px;
+    }
+
+    .our-solution-left {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+
+    .our-solution-left li.active {
+        border-right: 1px solid var(--dark-blue);
+        border-bottom: unset;
+    }
+
+    .our-solution-left li a {
+        width: max-content;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .our-solution-right-content-heading {
+        min-height: unset;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .our-solution-details {
+        gap: 10px;
+    }
+
+    .our-methodology-section .exist-main,
+    .follow-us-main {
+        flex-direction: column;
+    }
+
+    .heading-p {
+        gap: 20px;
+    }
+
+    .our-methodology-section .heading-top {
+        max-width: max-content;
+    }
+
+    h2,
+    .title-h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .our-methodology-section {
+        padding-top: 100px;
+    }
+
+    .our-clients-section {
+        padding: 120px 0px;
+    }
+
+    .our-client-btm {
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .our-client-btm-left {
+        width: 100%;
+        align-items: center;
+    }
+
+    .our-client-swiper .swiper-wrapper {
+        flex-wrap: unset;
+    }
+
+    .our-client-logo {
+        width: unset;
+        max-width: 200px;
+        min-height: 100px;
+    }
+
+    .we-are-main {
+        gap: 50px;
+    }
+
+    .team-card {
+        width: calc((100% - (2 * 30px)) / 3);
+    }
+
+    .we-are-btm {
+        gap: 30px;
+    }
+
+    .team-details {
+        padding: 20px 30px 20px 20px;
+    }
+
+    .who-we-are-section {
+        padding-bottom: 200px;
+    }
+
+    .follow-us-left {
+        padding: 100px 30px 30px 0px;
+        gap: 40px;
+        width: 100%;
+    }
+
+    .footer-main {
+        padding: 30px 0px;
+        gap: 30px;
+    }
+
+    .footer-left {
+        gap: 30px;
+    }
+
+    .footer-logo {
+        width: 30%;
+    }
+
+    .link a {
+        font-size: 18px;
+    }
+
+    .footer-right {
+        width: 58%;
+    }
+
+    .footer-address {
+        padding-right: 15px;
+    }
+
+    .copyright {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .btn {
+        padding: 10px 18px 10px 18px;
+    }
+
+    .header-main {
+        padding: 18px 0px;
+    }
+
+    .container {
+        padding: 0px 35px;
+    }
+
+    .hero-banner-section {
+        padding: 150px 0px 120px 0px;
+    }
+
+    h1,
+    .title-h1 {
+        font-size: 43px;
+        line-height: 50px;
+    }
+
+    .hero-banner-left-top {
+        gap: 20px;
+    }
+
+    h2,
+    .title-h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .exist-right,
+    .follow-us-right {
+        padding: 40px;
+    }
+
+    .exist-heading {
+        gap: 20px;
+    }
+
+    .heading-p {
+        gap: 10px;
+    }
+
+    .exist-max,
+    .our-methodology-max,
+    .follow-us-max {
+        gap: 30px;
+    }
+
+    .what-we-do-section {
+        padding: 80px 0px 100px;
+    }
+
+    h3,
+    .title-h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    .we-do-btm-content {
+        width: calc((100% - (1 * 30px)) / 2);
+        padding: 25px 20px 20px;
+        gap: 15px;
+    }
+
+    .we-do-btm {
+        gap: 30px;
+    }
+
+    .our-solution-main {
+        gap: 35px;
+        padding-bottom: 60px;
+    }
+
+    .our-methodology-section {
+        padding-top: 70px;
+    }
+
+    .our-clients-section {
+        padding: 90px 0px;
+    }
+
+    .our-clients-main {
+        gap: 35px;
+    }
+
+    .our-solutions-section {
+        padding: 70px 0px;
+    }
+
+    .our-client-btm-right-item {
+        padding: 35px 40px;
+    }
+
+    .team-details h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .who-we-are-section {
+        padding-bottom: 160px;
+    }
+
+    .follow-us-left {
+        padding: 80px 30px 30px 0px;
+        gap: 30px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .footer-right {
+        width: 100%;
+    }
+
+    .solution-right-img {
+        padding-top: 118%;
+    }
+
+    .footer-logo {
+        width: 17%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .our-solution-left {
+        display: none;
+    }
+
+    .solution-dropdown {
+        display: block;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: var(--pink);
+        color: white;
+        width: 50%;
+        border-radius: 30px;
+        padding: 15px 55px 15px 30px;
+        font-family: 'Inter 18pt';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 100%;
+        border: none;
+        outline: none;
+        background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 7.075L0 1.075L1.075 0L6 4.95L10.925 0.0249996L12 1.1L6 7.075Z' fill='white'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 20px center;
+        background-size: 14px;
+    }
+
+    .solution-dropdown option {
+        font-size: 18px;
+        padding: 10px 0;
+        border-radius: 20px;
+    }
+
+    .container {
+        padding: 0px 30px;
+    }
+
+    .hero-banner-section {
+        padding: 120px 0px 90px 0px;
+    }
+
+    .hero-banner-left {
+        gap: 25px;
+    }
+
+    .heading-top {
+        gap: 10px;
+    }
+
+    .what-we-do-section {
+        padding: 70px 0px 80px;
+    }
+
+    .our-solutions-section {
+        padding: 50px 0px;
+    }
+
+    .our-solution-right-content-img {
+        width: 38%;
+    }
+
+    .our-solution-right .swiper-slide {
+        gap: 19px;
+        align-items: flex-start;
+    }
+
+    .our-solution-right-content {
+        padding: 20px;
+    }
+
+    h4,
+    .title-h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .our-solution-main {
+        gap: 25px;
+        padding-bottom: 40px;
+    }
+
+    .our-methodology-section {
+        padding-top: 50px;
+    }
+
+    .our-clients-section {
+        padding: 70px 0px;
+    }
+
+    .our-client-btm-left {
+        gap: 30px;
+    }
+
+    .we-are-main {
+        gap: 35px;
+    }
+
+    .team-card {
+        width: calc((100% - (1 * 30px)) / 2);
+    }
+
+    .who-we-are-section {
+        padding-bottom: 130px;
+    }
+
+    .follow-us-left {
+        padding: 60px 25px 30px 0px;
+    }
+
+    .our-client-btm-right-span strong {
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    .our-client-btm-right-span span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .exist-left img {
+    border-radius: 20px;
+}
+}
+
+@media screen and (max-width: 767px) {
+
+    .hero-banner-right,
+    .exist-left {
+        width: 100%;
+    }
+
+    .exist-right,
+    .follow-us-right {
+        padding: 30px;
+    }
+
+    .we-do-main {
+        gap: 30px;
+    }
+
+    .we-do-btm-content {
+        width: calc((100% - (0 * 20px)) / 1);
+    }
+
+    .we-do-btm {
+        gap: 20px;
+    }
+
+    .what-we-do-section {
+        padding: 55px 0px 70px;
+    }
+
+    .our-solutions-section {
+        padding: 40px 0px;
+    }
+
+    .our-solution-right .swiper-slide {
+        flex-direction: column;
+    }
+
+    .our-solution-right-content-img {
+        width: 100%;
+    }
+
+    .header-logo {
+        width: 18%;
+    }
+
+    .btn {
+        padding: 10px 14px 10px 14px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .who-we-are-section {
+        padding-bottom: 100px;
+    }
+
+    .link a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .copyright {
+        padding-left: 10px;
+    }
+
+    .footer-address {
+        padding-right: 10px;
+    }
+
+    .footer-logo {
+        width: 20%;
+    }
+
+    .solution-dropdown {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .our-clients-section {
+        padding: 60px 0px;
+    }
+
+    .container {
+        padding: 0px 25px;
+    }
+
+    .we-are-main {
+        gap: 25px;
+    }
+
+    .team-card {
+        width: calc((100% - (0 * 30px)) / 1);
+        gap: 10px;
+    }
+
+    h1,
+    .title-h1 {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -0.7px;
+    }
+
+    h2,
+    .title-h2 {
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    h3,
+    .title-h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .follow-us-left {
+        padding: 45px 20px 25px 0px;
+        border-radius: 20px;
+    }
+
+    .arrow {
+        width: 35px;
+        height: 35px;
+    }
+
+    .arrow svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .linkedin-logo svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .exist-right,
+    .follow-us-right {
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .footer-right {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .footer-address {
+        padding-right: 0;
+        border: none;
+    }
+
+    .copyright {
+        padding-left: 0px;
+    }
+
+    .our-client-btm-right-content {
+        gap: 40px;
+    }
+
+    .solution-dropdown {
+        width: 100%;
+    }
+
+    .our-solution-main {
+        padding-bottom: 30px;
+    }
+
+    .our-methodology-section {
+        padding-top: 35px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .container {
+        padding: 0px 20px;
+    }
+
+    .header-main {
+        gap: 20px;
+    }
+
+    .header-logo {
+        width: 25%;
+    }
+
+    h1,
+    .title-h1 {
+        font-size: 34px;
+    }
+
+    h2,
+    .title-h2 {
+        font-size: 28px;
+        line-height: 100%;
+    }
+
+    h3,
+    .title-h3 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    h4,
+    .title-h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .hero-banner-left {
+        gap: 15px;
+    }
+
+    .hero-banner-left-top {
+        gap: 10px;
+    }
+
+    .hero-banner-section {
+        padding: 100px 0px 70px 0px;
+    }
+
+    .hero-banner-main {
+        gap: 25px;
+    }
+
+    .exist-right,
+    .follow-us-right {
+        padding: 20px;
+    }
+
+    .exist-max,
+    .our-methodology-max,
+    .follow-us-max,
+    .we-do-main {
+        gap: 20px;
+    }
+
+    .what-we-do-section {
+        padding: 55px 0px 60px;
+    }
+
+    .our-solutions-section {
+        padding: 30px 0px;
+    }
+
+    .our-client-btm {
+        gap: 35px;
+    }
+
+    .our-client-btm-right-item {
+        padding: 25px;
+    }
+
+    .our-client-btm-right-span strong::before {
+        width: 35px;
+    }
+
+    .team-details h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .footer-logo {
+        width: 27%;
+    }
+
+    .footer-main {
+        gap: 20px;
+    }
+
+    .linkedin-logo {
+        bottom: 8%;
+        right: 10%;
+    }
+
+    .who-we-are-section {
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 374px) {}

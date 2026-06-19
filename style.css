@@ -1,0 +1,1794 @@
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-ExtraBold.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-Bold.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-BoldItalic.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-Italic.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-Light.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-LightItalic.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-Medium.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-Regular.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-SemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-SemiBold.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-MediumItalic.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-Bold.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-ExtraBold.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-BoldItalic.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-MediumItalic.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-Italic.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-Medium.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-LightItalic.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-SemiBold.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-Regular.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-Light.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('./fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: url('./fonts/OpenSansSemiCondensed-SemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/OpenSansSemiCondensed-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+        url('./fonts/OpenSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-Light.woff2') format('woff2'),
+        url('./fonts/OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('./fonts/OpenSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-Italic.woff2') format('woff2'),
+        url('./fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/./fonts/Inter18pt-SemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-MediumItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-BlackItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Italic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Black.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-ThinItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Bold.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Inter18pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Italic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-ExtraLight.woff2') format('woff2'),
+        url('./fonts/Inter18pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Light.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-ExtraLightItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Medium.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-LightItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Regular.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-SemiBold.woff2') format('woff2'),
+        url('./fonts/Inter18pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Thin.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-ThinItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Bold.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-ExtraLightItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-BlackItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Black.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-ExtraLight.woff2') format('woff2'),
+        url('./fonts/Inter24pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Light.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Inter24pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-LightItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Medium.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-MediumItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Thin.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-SemiBold.woff2') format('woff2'),
+        url('./fonts/Inter24pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Regular.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-SemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Bold.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-BlackItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Black.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-ExtraLight.woff2') format('woff2'),
+        url('./fonts/Inter28pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Inter28pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-ExtraLightItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Italic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Medium.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Light.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Regular.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-MediumItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-LightItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-SemiBold.woff2') format('woff2'),
+        url('./fonts/Inter28pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Thin.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-SemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-ThinItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-blue: #0C0227;
+    --pink: #D51078;
+    --gray: #7A788D;
+    --white: #FFFFFF;
+    --light-blue: #EDF3FE;
+    --light-gray: #F8F8FA;
+    --light-pink: #ECD7CC;
+    --purple: #760952;
+    --yellow: #E3EBA3;
+}
+
+body {
+    color: var(--dark-blue);
+    overflow-x: hidden;
+    font-family: 'Inter 18pt';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+.title-h1 {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 117px;
+}
+
+h2,
+.title-h2 {
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 78px;
+    color: var(--pink);
+}
+
+h3,
+.title-h3 {
+    color: var(--pink);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+h4,
+.title-h4 {
+    font-family: 'Inter 18pt';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.smal-h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 50px;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+p {
+    font-family: 'Inter 18pt';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: var(--dark-blue);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.fourteen-font {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-white {
+    background: var(--white);
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 35px 15px 35px;
+    background: var(--pink);
+    color: var(--white);
+    border-radius: 100px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    border: 1px solid var(--pink);
+    transition: all 0.4s ease-in;
+}
+
+.btn:hover {
+    background: transparent;
+    color: var(--pink);
+}
+
+/* Header_section */
+.header-section.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 0px 3px 16px 0px #00000057;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(0);
+}
+
+.header-section {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0px 3px 16px 0px #00000057;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 42px 0px;
+}
+
+.header-logo,
+.footer-logo {
+    width: max-content;
+    display: flex;
+}
+
+.navbar-right {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 36px;
+}
+
+.navbar-menu li a {
+    font-family: 'Inter 18pt';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--dark-blue);
+}
+
+.navbar-menu li a:hover {
+    color: var(--pink);
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.hamburger span {
+    display: none;
+}
+
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(-5px, 4px);
+    background-color: white;
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(8px, -17px);
+    background-color: white;
+}
+
+
+/* Hero-banner-section */
+.hero-banner-section {
+    padding: 269px 0px 241px 0px;
+    position: relative;
+}
+
+.hero-banner-section .container {
+    max-width: 1678px;
+}
+
+.hero-banner-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 29px;
+
+}
+
+.hero-banner-bg img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-banner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero-banner-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 44px;
+    flex: 1;
+}
+
+.hero-banner-left-top {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.heading-top {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.heading-top h3 {
+    color: var(--pink);
+}
+
+.hero-banner-left-top h4 {
+    color: var(--gray);
+}
+
+.hero-banner-right {
+    width: 46.895%;
+}
+
+/* Why We Exist. */
+.why-we-exist-section {
+    position: relative;
+    margin-top: -7%;
+    z-index: 1;
+}
+
+.why-we-exist-section .container {
+    max-width: 1920px;
+    padding: 0px 20px;
+}
+
+.exist-main {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    max-width: 1880px;
+}
+
+.exist-right {
+    display: flex;
+    flex-direction: column;
+    width: 49.4681%;
+    background: var(--yellow);
+    border-radius: 30px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.exist-max {
+    max-width: 606px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+.exist-left {
+    width: 49.4681%;
+}
+
+.exist-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.heading-p {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.heading-top h4 {
+    color: var(--pink);
+}
+
+.exist-heading p {
+    line-height: 27.8px;
+}
+
+.exist-left img {
+    border-radius: 30px;
+}
+
+/* what-we-do-section */
+.what-we-do-section {
+    padding: 139px 0px 183px;
+}
+
+.what-we-do-section .container {
+    max-width: 1609px;
+}
+
+.we-do-main {
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+}
+
+.we-do-btm {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 42px;
+}
+
+.we-do-btm-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: calc((100% - (2 * 42px)) / 3);
+    padding: 41px 38px 35px;
+    background: var(--light-blue);
+    border-radius: 15px;
+    border: 1.5px solid var(--white);
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    background: var(--pink);
+    border-radius: 50%;
+    position: unset;
+    margin-top: unset;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background: var(--dark-blue);
+
+}
+
+.we-do-btm-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.we-do-details {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.4s ease-in;
+}
+
+.we-do-details p {
+    color: var(--white);
+}
+
+.we-do-btm-content.active {
+    background: var(--purple);
+
+}
+
+.we-do-btm-content.active .we-do-details {
+    height: auto;
+    color: var(--white);
+}
+
+.we-do-btm-content.active .we-do-arrow {
+    transform: rotate(-180deg);
+}
+
+/* our-solutions-section */
+.our-solutions-section {
+    background: var(--light-gray);
+    padding: 115px 0px 111px 0px;
+}
+
+.our-solutions-section .container {
+    max-width: 1607px;
+}
+
+.our-solution-main {
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    padding-bottom: 111px;
+}
+
+.our-solution-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 39px;
+}
+
+.our-solution-left li:first-child {
+    padding-top: 0px;
+}
+
+.our-solution-left {
+    width: 22.96%;
+}
+
+.solution-slider {
+    display: flex;
+    gap: 50px;
+}
+
+.our-solution-right-content-img {
+    width: 42.514%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.our-solution-left li {
+    padding: 13px 0px 19px;
+    border-bottom: 1px solid var(--gray);
+    cursor: pointer;
+}
+
+.our-solution-left li.active {
+    border-bottom: 1px solid var(--dark-blue);
+}
+
+.our-solution-left li a {
+    font-family: 'Inter 18pt';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--gray);
+    width: 62%;
+    display: flex;
+}
+
+.our-solution-right-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: var(--light-blue);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.our-solution-right-heading h4 {
+    color: var(--pink);
+}
+
+.our-solution-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.our-solution-right-content-heading {
+    background: var(--purple);
+    padding: 20px;
+    min-height: 154px;
+    border-radius: 15px;
+}
+
+.our-solution-right-content-heading h3 {
+    color: var(--light-blue);
+}
+
+.our-solution-btm-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+}
+
+.solution-right-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+}
+
+.solution-right-img {
+    position: relative;
+    padding-top: 97.904%;
+}
+
+.our-solution-left li.active a {
+    color: var(--dark-blue);
+}
+
+.our-solution-right .swiper-wrapper {
+    display: flex;
+}
+
+.our-solution-right .swiper-slide {
+    display: flex;
+    gap: 41px;
+}
+
+.swiper-horizontal>.swiper-scrollbar {
+    display: none;
+}
+
+.our-solution-right.swiper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    flex: 1;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: none;
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+    width: 15px;
+    height: 15px;
+}
+.solution-dropdown {
+    display: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+/* our-methodology */
+.our-methodology-section {
+    padding-top: 129px;
+}
+
+.our-methodology-section .exist-main {
+    flex-direction: row-reverse;
+}
+
+.our-methodology-section .exist-right {
+    background: var(--light-pink);
+}
+
+.our-methodology-section .heading-top {
+    max-width: 365px;
+}
+
+.our-methodology-max {
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+    max-width: 559px;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+/* our-clients-section */
+.our-clients-section {
+    padding: 183px 0px;
+    overflow-x: hidden;
+}
+
+.our-clients-section .container {
+    max-width: 1613px;
+}
+
+.our-clients-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.our-client-btm {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 89px;
+}
+
+.our-client-btm-left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    gap: 45px;
+    width: 31.792%;
+}
+
+.our-client-btm-right {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+
+}
+
+.our-client-btm-right-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 81px 51px 81px;
+    flex: 1;
+    background: var(--light-blue);
+    border-radius: 15px;
+    scroll-behavior: smooth;
+    max-height: 629px !important;
+}
+
+.our-client-swiper .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 41px;
+    transform: translate3d(-0.0px, 0px, 0px) !important;
+}
+
+.our-client-logo {
+    width: calc((100% - (1 * 41px)) / 2) !important;
+    border: 1px solid #D9E0EB;
+    padding: 8px 26px;
+    border-radius: 20px;
+    filter: grayscale(1);
+}
+
+.swiper-slide {
+    height: auto !important;
+}
+
+.our-client-logo.active {
+    filter: grayscale(0);
+}
+
+.our-client-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.our-client-btm-right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 62px;
+    overflow-y: auto;
+}
+
+.our-client-btm-right-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.our-client-btm-right-span {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: var(--pink);
+
+}
+
+.our-client-btm-right-span span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+
+}
+
+.our-client-btm-right-span strong {
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 20px;
+    position: relative;
+}
+
+.our-client-btm-right-span strong::before {
+    position: absolute;
+    content: "";
+    border: 2px solid var(--pink);
+    width: 41px;
+    height: 0;
+    top: -16px;
+    left: 0;
+}
+
+/*Custom Scrollbar */
+.our-client-btm-right-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.our-client-btm-right-content::-webkit-scrollbar-track {
+    background: var(--white);
+    border-radius: 10px;
+}
+
+.our-client-btm-right-content::-webkit-scrollbar-thumb {
+    background-color: var(--gray);
+    border-radius: 10px;
+}
+
+
+.our-client-btm-right-item {
+    display: none;
+}
+
+.our-client-btm-right-item.active {
+    display: flex;
+}
+
+/* who-we-are-section */
+.who-we-are-section {
+    padding-bottom: 249px;
+}
+
+.who-we-are-section .container {
+    max-width: 1607px;
+}
+
+.we-are-main {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.we-are-btm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 41px;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - (3 * 41px)) / 4);
+    gap: 20px;
+}
+
+.team-img-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.team-list {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    position: absolute;
+    inset: 0;
+    padding: 30px;
+    z-index: 2;
+    overflow-y: auto;
+    height: 90% !important;
+}
+
+.team-img-card.active .team-list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-img-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--purple);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 1;
+}
+
+.team-img-card.active::before {
+    opacity: 0.7;
+}
+
+
+.team-list p {
+    color: var(--white);
+}
+
+.team-img-arrow {
+    right: 16px;
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.team-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: var(--light-blue);
+    border-radius: 15px;
+    padding: 28px 50px 22px 27px;
+    flex: 1;
+}
+
+.team-details p {
+    align-items: end;
+    display: flex;
+    flex: 1;
+}
+
+.team-details h4 {
+    font-size: 31.25px;
+    line-height: 38px;
+    color: var(--dark-blue);
+}
+
+.team-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.team-list::-webkit-scrollbar-track {
+    background: var(--white);
+    border-radius: 10px;
+}
+
+.team-list::-webkit-scrollbar-thumb {
+    background-color: var(--pink);
+    border-radius: 10px;
+}
+
+/* Follow-us */
+.follow-us-section {
+    padding-bottom: 21px;
+    overflow-x: hidden;
+}
+
+.follow-us-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.follow-us-left {
+    display: flex;
+    padding: 213px 100px 99px 0px;
+    width: 57.022%;
+    background: var(--purple);
+    border-radius: 30px;
+}
+
+.follow-swiper {
+    width: 100%;
+}
+
+.follow-us-right {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 69px;
+    background: var(--light-pink);
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.follow-us-max {
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+    justify-content: center;
+    max-width: 467px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.follow-us-right-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.follow-us-left {
+    display: flex;
+    flex-direction: column;
+    gap: 68px;
+}
+
+.linkedin-logo {
+    position: absolute;
+    bottom: 12%;
+    right: 16%;
+    display: flex;
+}
+
+/* footer-section */
+.footer-section {
+    background: var(--dark-blue);
+    color: var(--white);
+}
+
+.footer-section .container {
+    max-width: 1609px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 99px;
+}
+
+.link a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--pink);
+}
+
+.link a:hover {
+    color: var(--white);
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.footer-address {
+    flex: 1;
+    padding-right: 27px;
+    border-right: 1px solid var(--white);
+}
+
+.footer-right p,
+.copyright li a {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.copyright {
+    width: max-content;
+    padding-left: 24px;
+}
